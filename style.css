@@ -1,0 +1,79 @@
+body {
+	font-family: 'Poppins';
+}
+
+body::before {
+	display: block;
+	content: '';
+	height: 60px;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+	.news-input {
+		width: 50%;
+	}
+}
+
+.logo {
+	width: auto;
+	height: 50px;
+}
+
+.showcase {
+	background-image: url(triangle.svg);
+	background-repeat: no-repeat;
+	resize: horizontal;
+
+.fw-bold {
+	color: rgb(0, 0, 51);
+	font-weight: 200;
+}
+
+input {
+	width: 290px;
+	height: 58px;
+	outline: none;
+	border-radius: 50px;
+	background: #f4f2f2;
+	border-radius: 14px;
+	color: #565656;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	font-size: 24px;
+	font-weight: 500;
+}
+button {
+	outline: none;
+	background-color: #61bc6a;
+	width: 130px;
+	height: 58px;
+	border-radius: 14px;
+	font-weight: bold;
+	font-size: 26px;
+	color: #ffffff;
+	outline: none;
+	cursor: pointer;
+	border: none;
+}
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: justify;
+}
+img {
+	width: 200px;
+	height: auto;
+}
+
+.card {
+	background-color: rgba(255, 255, 255, 0.664);
+	border-radius: 15px;
+}
